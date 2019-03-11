@@ -1,4 +1,7 @@
-unknow = "flashbang"
-print(unknow[0],unknow[1],unknow[7],unknow[8])
+unknow = input("please enter the str" )
+
+
 if len(unknow)<2:
-    print("it is too short")
+    print("empty")
+else:
+    print(unknow[0],unknow[1],unknow[len(unknow)-2],unknow[len(unknow)-1])
